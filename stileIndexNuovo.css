@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto-Regular.ttf);
+}
+
+div#divAlto{
+  color: white;
+  text-align: center;
+  font-family: 'Roboto';
+
+}
+
+div#divAlto2{
+  color: white;
+  text-align: center;
+  font-family: 'Roboto';
+
+}
+
+h2{
+  color:red;
+}
+
+a{
+  color: white;
+}
+
+
+div#disc{
+  color:red;
+}
+
+
+.nomeCat{
+  position: absolute;
+  margin-top: -100px;
+  width: 173px;
+  height: auto;
+  background: rgba(0, 0, 0, 0.7);
+
+  transition-property: border;
+  transition-duration: 0.5s;
+
+  -webkit-transition-property: border; /*safari*/
+  -webkit-transition-duration: 0.5s;
+
+  -o-transition-property: border;      /*opera*/
+  -o-transition-duration: 0.5s;
+
+  -moz-transition-property: border;    /*firefox*/
+  -moz-transition-duration: 0.5s;
+}
+
+
+.divCategoria {
+  width: 175px;
+  height: 250px;
+  border: white solid 2px;
+  display: inline-block;
+  margin: 20px;
+
+  transition-property: border;
+  transition-duration: 0.5s;
+
+  -webkit-transition-property: border; /*safari*/
+  -webkit-transition-duration: 0.5s;
+
+  -o-transition-property: border;      /*opera*/
+  -o-transition-duration: 0.5s;
+
+  -moz-transition-property: border;    /*firefox*/
+  -moz-transition-duration: 0.5s;
+}
+
+.divCategoria:hover{
+  border: #ff003f solid 2px;
+
+}
+
+body{
+  background-color: black;
+  font-family: 'Roboto';
+  text-align: center;
+  color: white;
+}
+
+.center{
+  text-align: center;
+}
+
+

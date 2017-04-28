@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto-Regular.ttf);
+}
+
+body{
+  background-color: black;
+  font-family: 'Roboto';
+  color:white;
+}
+
+div{
+  color: white;
+}
+
+a{
+  color: white;
+}
+
+#trama{
+  display: none;
+}
+
+div#menu{
+  text-align: center;
+}
+
+div#header{
+  text-align: center;
+  color: white;
+}
+
+
+#locandina{
+  display: none;
+}
+
+div.film{
+  text-align: center;
+  width: 300px;
+  border: solid white;
+  margin: 0 auto;
+}
+
+span{
+  color red;
+}
