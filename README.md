@@ -8,9 +8,7 @@ Removal of ads is based on some PHP scripts taking, every day, movies from some 
 
 What things you need to install the software and how to install them
 
-```
-curl
-```
+* [curl](https://curl.haxx.se)
 
 ### Installing
 
