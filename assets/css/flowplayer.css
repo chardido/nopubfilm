@@ -1,0 +1,303 @@
+.media-player .video-js {
+    padding-top: 56.25%
+}
+
+.media-player .vjs-fullscreen {
+    padding-top: 0px
+}
+
+#videooverlay {
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+    z-index: 99999;
+    background: transparent;
+    position: absolute;
+    cursor: pointer;
+}
+
+.videocontainer {
+    height: 100%;
+}
+
+.vjs-control.vjs-ol-button {
+    margin-left: 10px;
+    float: right;
+    width: 63px;
+}
+
+.vjs-control.vjs-ol-button img.logobrand {
+    width: 58px;
+    margin-right: 5px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.vjs-control.vjs-ol-button a {
+    line-height: 30px;
+    height: 30px;
+}
+
+.videocontainer {
+    position: relative;
+}
+
+.videocontainer span.title {
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    top: 0;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.5);
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.45) 89%, rgba(0, 0, 0, 0.2) 100%);
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.45) 89%, rgba(0, 0, 0, 0.2) 100%);
+    background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.45) 89%, rgba(0, 0, 0, 0.2) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.45) 89%, rgba(0, 0, 0, 0.2) 100%);
+    color: white;
+    height: 20px;
+    overflow: hidden;
+    word-wrap: break-word;
+    word-break: break-all;
+    font-size: 14px;
+    display: block;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.videocontainer .logobrandOutsideplayer {
+    width: 58px;
+    margin-right: 5px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.videocontainer .logocontainer {
+    position: absolute;
+    z-index: 99;
+    bottom: 0;
+    right: 5px;
+    display: block;
+    color: white;
+    width: 63px;
+    line-height: 30px;
+    height: 30px;
+}
+
+::cue {
+    color: rgb(255, 255, 255) !important;
+    font-family: Verdana, sans-serif, Arial !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    word-wrap: break-word !important;
+    background-color: transparent !important;
+    text-shadow: 0px 0px 7px rgba(0, 0, 0, 1);
+}
+
+.vjs-text-track-display div div {
+    color: rgb(255, 255, 255) !important;
+    font-family: Verdana, sans-serif, Arial !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    word-wrap: break-word !important;
+    background-color: transparent !important;
+    text-shadow: 0px 0px 7px rgba(0, 0, 0, 1);
+}
+
+.vjs-error .vjs-error-display:before {
+    content: "\e012";
+    font-family: videojs;
+    font-size: 6em;
+    color: #FFF;
+}
+
+.vjs-error-display div:before, .vjs-error-display div:after {
+    content: "\e012";
+    font-family: videojs;
+}
+
+.vjs-menu-item.vjs-texttrack-settings {
+    display: none;
+}
+
+.vjs-tracksettings {
+    display: block;
+    margin: 0 auto;
+    position: static !important;
+    top: auto !important;
+    bottom: auto !important;
+    right: auto !important;
+    left: auto !important;
+    width: auto !important;
+}
+
+vjs-tracksettings-controls {
+    position: static;
+}
+
+.vjs-default-skin .vjs-control-bar {
+    text-shadow: none !important;
+}
+
+.vjs-default-skin .vjs-control:focus:before, .vjs-default-skin .vjs-control:hover:before {
+    text-shadow: none !important;
+}
+
+.vjs-default-skin .vjs-play-progress {
+    background-color: #FFF;
+}
+
+.vjs-default-skin {
+    color: #FFF !important;
+}
+
+.vjs-default-skin .vjs-volume-level {
+    background-color: #FFF;
+}
+
+.vjs-default-skin .vjs-seek-handle {
+    display: none;
+}
+
+.vjs-volume-handle {
+    display: none !important;
+}
+
+.vjs-big-play-button {
+    box-shadow: none !important;
+}
+
+.vjs-control-bar {
+    background-color: transparent !important;
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.6) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(100%, rgba(0, 0, 0, 0.6)));
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.6) 100%);
+    background: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.6) 100%);
+    background: -ms-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.6) 100%);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.6) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#66000000', GradientType=0);
+}
+
+.vjs-default-skin .vjs-slider {
+    background-color: rgba(51, 51, 51, .6);
+}
+
+.vjs-current-time-display, .vjs-control {
+    text-shadow: rgba(0, 0, 0, 1) 0px 0px 5px;
+}
+
+.vjs-default-skin:hover .vjs-big-play-button, .vjs-default-skin .vjs-big-play-button:focus {
+    background-color: #00aeef !important;
+}
+
+.vjs-default-skin .vjs-big-play-button {
+    background-color: #505050 !important;
+    background-color: rgba(50, 50, 50, .6) !important;
+    border: none;
+    border-radius: 12px;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+}
+
+#anim-container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    line-height: 1.42857143;
+    width: 60px;
+    height: 60px;
+    z-index: 17;
+    margin-left: -30px;
+    margin-top: -30px;
+    background: rgba(0, 0, 0, .5);
+    border-radius: 30px;
+    -moz-transition: all 0s linear;
+    -webkit-transition: all 0s linear;
+    transition: all 0s linear;
+    opacity: 1;
+    pointer-events: none;
+}
+
+#anim-container.anim {
+    opacity: 0;
+    -moz-transform: scale(2);
+    -ms-transform: scale(2);
+    -webkit-transform: scale(2);
+    transform: scale(2);
+    -moz-transition: all .5s linear;
+    -webkit-transition: all .5s linear;
+    transition: all .5s linear;
+}
+
+#playeranim {
+    width: 40px;
+    font-size: 25px;
+    font-family: 'VideoJS';
+    height: 40px;
+    margin-left: 17px;
+    margin-top: 13px;
+}
+
+#anim-container.play #playeranim {
+    margin-left: 19px;
+}
+
+#anim-container.play #playeranim:before {
+    content: "\e001";
+}
+
+#anim-container.pause #playeranim:before {
+    content: "\e002";
+}
+
+#vjs-tip {
+    visibility: hidden;
+    display: block;
+    opacity: 0.8;
+    padding: 5px;
+    font-size: 10px;
+    position: absolute;
+    z-index: 100000;
+}
+
+#vjs-tip-arrow {
+    background: url(data:image/gif;base64,R0lGODlhCQAJAIABAAAAAAAAACH5BAEAAAEALAAAAAAJAAkAAAIRjAOnwIrcDJxvwkplPtchVQAAOw==) no-repeat top left;
+    bottom: 0;
+    left: 50%;
+    margin-left: -4px;
+    background-position: bottom left;
+    position: absolute;
+    width: 9px;
+    height: 5px;
+}
+
+#vjs-tip-inner {
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    padding: 5px 8px 4px 8px;
+    background-color: black;
+    color: white;
+    max-width: 200px;
+    text-align: center;
+}
+
+.videologo {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 15%;
+    max-width: 150px;
+    z-index: 2;
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+.vjs-captions-button:before {
+    line-height: 1.7 !important;
+    font-size: 1.8em !important;
+}
